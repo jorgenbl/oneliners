@@ -1,0 +1,3 @@
+# Python dict to JSON
+
+printf "True" | python -c 'import sys,json; data = sys.stdin.read(); obj=eval(data); print(json.dumps(obj))'
